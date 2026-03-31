@@ -1,3 +1,4 @@
+import Navbar from "./components/Navebar"
 
 
 
@@ -6,10 +7,10 @@ function App() {
 
   return (
     <>
-     
-    <h1>hello</h1>
+     <Navbar></Navbar>
+    
     </>
   )
 }
 
-export default App
+export default App;
