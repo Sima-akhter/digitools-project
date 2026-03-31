@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="flex items-center justify-between px-10 py-4 bg-white border-b border-gray-100 font-sans">
       
       <div className="shrink-0">
-        <a href="/" className="text-3xl font-extrabold tracking-tight text-[#7C3AED]">
+        <a href="/" className="text-3xl font-extrabold tracking-tight eta text = bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
           DigiTools
         </a>
       </div>
@@ -37,7 +37,7 @@ export default function Navbar() {
         <button className="text-gray-700 font-semibold text-sm hover:text-[#7C3AED] transition-colors">
           Login
         </button>
-        <button className="bg-[#7C3AED] hover:bg-[#6D28D9] text-white px-6 py-2.5 rounded-full text-sm font-semibold transition-all shadow-md">
+        <button className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:bg-[#6D28D9] text-white px-6 py-2.5 rounded-full text-sm font-semibold transition-all shadow-md">
           Get Started
         </button>
       </div>

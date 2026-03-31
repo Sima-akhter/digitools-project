@@ -13,7 +13,7 @@ export default function Banner() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#7C3AED] opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-[#7C3AED]"></span>
             </span>
-            <span className="text-sm font-semibold text-[#7C3AED]">
+            <span className="text-sm font-semibold eta text = bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
               New: AI-Powered Tools Available
             </span>
           </div>
@@ -35,7 +35,7 @@ export default function Banner() {
 
           {/* CTA Buttons */}
           <div className="flex flex-wrap gap-4 pt-2">
-            <button className="px-8 py-4 bg-[#7C3AED] text-white font-bold rounded-full hover:bg-[#6D28D9] transition-all shadow-lg shadow-indigo-100">
+            <button className="px-8 py-4 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold rounded-full hover:bg-[#6D28D9] transition-all shadow-lg shadow-indigo-100">
               Explore Products
             </button>
 
