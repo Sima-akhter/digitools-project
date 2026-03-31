@@ -39,7 +39,7 @@ export default function Banner() {
               Explore Products
             </button>
 
-            <button className="flex items-center gap-2 px-8 py-4 border-2 border-[#7C3AED] text-[#7C3AED] font-bold rounded-full hover:bg-purple-50 transition-all">
+            <button className="flex items-center gap-2 px-8 py-4 border-2 border-[#7C3AED] eta text = bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent font-bold rounded-full hover:bg-purple-50 transition-all">
               <div className="bg-white rounded-full p-0.5">
                 <Play size={18} fill="currentColor" className="ml-0.5" />
               </div>
