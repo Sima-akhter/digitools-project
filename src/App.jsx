@@ -6,6 +6,7 @@ import ToolSection from "./components/ToolSection";
 import Footer from "./components/Footer";
 import Steps from "./components/Steps";
 import Pricing from "./components/PricingSection";
+import CTA from "./components/CTA";
 
 
 
@@ -32,6 +33,7 @@ function App() {
 
          <Steps></Steps>
          <Pricing></Pricing>
+         <CTA></CTA>
         </section>
       </main>
     <Footer></Footer>
