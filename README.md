@@ -1,16 +1,182 @@
-# React + Vite
+# 🚀 DigiTools - Subscription & Product UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+DigiTools is a modern and fully responsive web application built using React and Vite. It allows users to explore different digital tools or subscription plans, add them to a cart, and manage their selections dynamically.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project focuses on clean UI design, smooth user experience, and efficient state management.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+🔗 Live Site: *https://digi-tools-2026.netlify.app*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 GitHub Repository
+
+🔗 Repo Link: *https://github.com/Sima-akhter/digitools-project*
+
+---
+
+## ⚙️ Technologies Used
+
+* React.js (with Vite)
+* JavaScript (ES6+)
+* Tailwind CSS
+* DaisyUI
+* React Toastify
+* JSON (for product data)
+
+---
+
+## 🎯 Core Features
+
+### 🧭 Navbar
+
+* Responsive navigation bar
+* Dynamic cart count display
+* Sticky top navigation
+
+### 🎯 Banner Section
+
+* Heading, description, image
+* Call-to-action buttons
+
+### 📊 Stats Section
+
+* Clean UI stats display based on Figma
+
+### 🔄 Product & Cart Toggle
+
+* Toggle between **Products** and **Cart**
+* Default view: Products
+* Cart shows empty message initially
+
+### 📦 Product System
+
+* Products loaded from JSON data
+* Each product includes:
+
+  * Name, Description
+  * Price & Billing Period
+  * Tag (Popular, New, Best Seller)
+  * Features list
+  * Icon
+
+### 🃏 Product Cards
+
+* 3-column responsive layout
+* Includes:
+
+  * Product details
+  * Features list
+  * Tag badge
+  * Buy Now button
+
+### 🛒 Cart Functionality
+
+* Add products to cart
+* Remove individual items
+* Dynamic cart count in navbar
+* Total price calculation
+* Checkout button clears cart
+
+### 🔔 Notifications
+
+* Toast notifications using React Toastify:
+
+  * Add to cart
+  * Remove item
+  * Checkout success
+
+### 🪜 Steps Section
+
+* Step-by-step UI section (based on Figma)
+
+### 💰 Pricing Section
+
+* Clean pricing display UI
+
+### 🦶 Footer
+
+* Fully designed footer section
+
+---
+
+## ✨ Optional Features
+
+* "Buy Now" button changes to "Added"
+* Clicking product increases cart count instantly
+* Cart clears after checkout
+
+---
+
+## 📱 Responsive Design
+
+* Mobile-first approach
+* Works on:
+
+  * Mobile 📱
+  * Tablet 📟
+  * Desktop 💻
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ ├── data/
+ ├── App.jsx
+ ├── main.jsx
+```
+
+---
+
+## 🚀 Installation & Setup
+
+```bash
+# Clone the repository
+git clone <your-repo-link>
+
+# Go to project folder
+cd digitools
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
+```
+
+---
+
+## 🔥 Challenges Implemented
+
+* Cart state management
+* Dynamic UI toggling
+* Toast notifications integration
+* Responsive layout design
+
+---
+
+## 📌 Future Improvements
+
+* Authentication system
+* Payment integration
+* Backend API connection
+* User dashboard
+
+---
+
+## 👩‍💻 Author
+
+**Sima Akter**
+Frontend Developer (React | Tailwind)
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
