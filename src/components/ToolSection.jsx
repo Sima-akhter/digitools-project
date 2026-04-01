@@ -3,6 +3,8 @@
 import { useEffect, useState } from 'react';
 import ProductCard from './CartSection';
 import { toast } from 'react-toastify';
+import { PiShoppingCartSimpleDuotone } from 'react-icons/pi';
+
 
 
 // Destructure cart and setCart from props here!
@@ -35,7 +37,7 @@ export default function ToolSection({ cart, setCart }) {
 
   const handleCheckout = () => {
     setCart([]); // This now clears the cart in App.jsx!
-    setActiveTab('products');
+    setActiveTab('cart');
     toast.info('Checkout complete!');
   };
 
@@ -94,8 +96,8 @@ export default function ToolSection({ cart, setCart }) {
             <h3 className="text-xl font-bold text-[#1E293B] mb-8">Your Selected Tools</h3>
 
             {cart.length === 0 ? (
-              <div className="text-center py-12 text-gray-400">
-                Your cart is empty. Go add some tools!
+              <div className="flex justify-center items-center text-9xl py-12 text-gray-400">
+                <PiShoppingCartSimpleDuotone />
               </div>
             ) : (
               <>

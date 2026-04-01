@@ -4,6 +4,7 @@ import Navbar from "./components/Navebar"
 import Stats from "./components/Stats";
 import ToolSection from "./components/ToolSection";
 import Footer from "./components/Footer";
+import Steps from "./components/Steps";
 
 
 
@@ -28,7 +29,7 @@ function App() {
           {/* This is my tool section  */}
           <ToolSection cart={cart} setCart={setCart} />
 
-         
+         <Steps></Steps>
         </section>
       </main>
     <Footer></Footer>
