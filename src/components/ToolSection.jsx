@@ -97,7 +97,10 @@ export default function ToolSection({ cart, setCart }) {
 
             {cart.length === 0 ? (
               <div className="flex justify-center items-center text-9xl py-12 text-gray-400">
-                <PiShoppingCartSimpleDuotone />
+                <div>
+                  <PiShoppingCartSimpleDuotone />
+                <p className='text-2xl'>Your cart is empty</p>
+                </div>
               </div>
             ) : (
               <>
@@ -132,7 +135,7 @@ export default function ToolSection({ cart, setCart }) {
                   </div>
                   <button
                     onClick={handleCheckout}
-                    className="w-full py-5 bg-[#7C3AED] hover:bg-[#6D28D9] text-white font-bold rounded-2xl transition-all shadow-xl shadow-purple-100"
+                    className="w-full py-5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:bg-[#6D28D9] text-white font-bold rounded-2xl transition-all shadow-xl shadow-purple-100"
                   >
                     Proceed to Checkout
                   </button>
