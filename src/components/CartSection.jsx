@@ -47,7 +47,7 @@ export default function ProductCard({ product, onAddToCart }) {
       {/* Button */}
       <button
         onClick={() => onAddToCart(product)}
-        className="w-full py-4 bg-[#7C3AED] hover:bg-[#6D28D9] text-white font-bold rounded-2xl transition-all shadow-lg shadow-purple-100"
+        className="w-full py-4 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold rounded-2xl transition-all shadow-lg shadow-purple-100"
       >
         Buy Now
       </button>

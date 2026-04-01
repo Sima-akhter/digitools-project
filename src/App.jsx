@@ -1,10 +1,11 @@
 import { useState } from "react";
 import Banner from "./components/Banner";
-import Navbar from "./components/Navebar"
+import Navbar from "./components/Navbar"
 import Stats from "./components/Stats";
 import ToolSection from "./components/ToolSection";
 import Footer from "./components/Footer";
 import Steps from "./components/Steps";
+import Pricing from "./components/PricingSection";
 
 
 
@@ -15,7 +16,7 @@ function App() {
 
   return (
     <>
-     <Navbar></Navbar>
+    <Navbar cartCount={cart.length} />
      
     
 
@@ -30,6 +31,7 @@ function App() {
           <ToolSection cart={cart} setCart={setCart} />
 
          <Steps></Steps>
+         <Pricing></Pricing>
         </section>
       </main>
     <Footer></Footer>
