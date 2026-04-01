@@ -21,7 +21,7 @@ export default function Banner() {
           {/* Heading */}
           <h1 className="text-5xl lg:text-[72px] font-extrabold text-[#1E293B] leading-[1.1] tracking-tight">
             Supercharge Your <br />
-            Digital Workflow
+            <span className='eta text = bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>Digital Workflow</span>
           </h1>
 
           {/* Subtext */}
